@@ -1,5 +1,5 @@
 @import url(css-components/logo.css);
-
+@import url(css-components/nav.css);
 :root {
   --prata-font: "Prata", serif;
 }
