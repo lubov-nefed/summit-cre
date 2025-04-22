@@ -1,0 +1,9 @@
+:root {
+  --prata-font: "Prata", serif;
+}
+
+body {
+  background-color: #282829;
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+}
