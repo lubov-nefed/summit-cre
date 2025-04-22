@@ -1,6 +1,9 @@
+@import url(css-components/logo.css);
+
 :root {
   --prata-font: "Prata", serif;
 }
+
 
 body {
   background-color: #282829;
