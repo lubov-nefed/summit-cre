@@ -1,5 +1,6 @@
 .welcome-screen{
   display: grid;
+  /* == Media == */
   grid-template-areas: "header img""content img";
 }
 

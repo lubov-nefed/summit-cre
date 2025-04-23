@@ -3,5 +3,6 @@
   text-transform: uppercase;
   letter-spacing: .1rem;
   line-height: 150%;
+  /* == Media == */
   font-size: 36px;
 }
