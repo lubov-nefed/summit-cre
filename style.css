@@ -6,7 +6,11 @@
   @import url(css-components/nav.css);
 /* Second screen imports */
 @import url(css-components/services.css);
+/* Third screen imports */
 @import url(css-components/contact-form.css);
+/* Footer imports */
+@import url(css-components/footer.css);
+
 
 :root {
   --prata-font: "Prata", serif;
