@@ -1,0 +1,12 @@
+.welcome-screen{
+  display: grid;
+  grid-template-areas: "header img""content img";
+}
+
+.key-features {
+  grid-area: content;
+}
+
+.welcome-screen-img {  
+  grid-area: img;
+}

@@ -1,3 +1,6 @@
+
+@import url(css-components/welcome-screen.css);
+@import url(css-components/header.css);
 @import url(css-components/logo.css);
 @import url(css-components/nav.css);
 :root {
