@@ -1,0 +1,14 @@
+.services {
+  display: grid;
+  /* == Media == */
+  grid-template-areas: "img-left content img-right";
+}
+
+.services-img-1 {
+  grid-area: img-left;}
+
+.services-info {
+  grid-area: content;}
+
+.services-img-2 {
+  grid-area: img-right;}

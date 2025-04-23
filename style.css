@@ -1,8 +1,12 @@
-
+/* First screen imports */
 @import url(css-components/welcome-screen.css);
 @import url(css-components/header.css);
-@import url(css-components/logo.css);
-@import url(css-components/nav.css);
+/* Common Components */
+  @import url(css-components/logo.css);
+  @import url(css-components/nav.css);
+/* Second screen imports */
+@import url(css-components/services.css);
+
 :root {
   --prata-font: "Prata", serif;
 }
