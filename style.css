@@ -6,11 +6,15 @@
   @import url(css-components/nav.css);
 /* Second screen imports */
 @import url(css-components/services.css);
+@import url(css-components/contact-form.css);
 
 :root {
   --prata-font: "Prata", serif;
 }
 
+ * {
+  box-sizing: border-box;
+ }
 
 body {
   background-color: #282829;

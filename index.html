@@ -90,20 +90,49 @@
       </div>
       <!--======= Contact-form =======-->
       <div class="contact-form">
-        <form action="#">
-          <h2>Schedule a Consultation</h2>
-          <input type="text" name="name" placeholder="Name" />
-          <input type="email" name="email" placeholder="E-mail" />
-          <input type="checkbox" name="privacy" id="privacy" /><span
-            >I accept Privacy policy</span
-          >
-          <button type="submit" class="submit-btn">Submit</button>
+        <div class="form-mid-wrapper">
+          <form class="form" action="#">
+            <div class="form-fields">
+              <h2 class="form-heading">Schedule a Consultation</h2>
+              <label for="name">
+                <input
+                  class="form-input"
+                  id="name"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+              /></label>
+              <label for="email">
+                <input
+                  class="form-input"
+                  id="email"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+              /></label>
+              <label for="privacy">
+                <input
+                  class="form-input"
+                  id="privacy"
+                  type="checkbox"
+                  name="privacy"
+                /><span>I accept Privacy policy</span></label
+              >
+              <button type="submit" class="submit-btn">Submit</button>
+            </div>
+          </form>
           <img
             src="/images/contact-form-img.png"
-            alt="Real estate agent in a navy suit holding documents, standing in front of a modern residential building with balconies and greenery"
+            alt="Modern residential building with balconies and greenery"
             class="contact-form-img"
           />
-        </form>
+        </div>
+
+        <img
+          src="/images/contact-form-person-img.png"
+          alt="Modern residential building with balconies and greenery"
+          class="contact-form-person-img"
+        />
       </div>
       <!--======= Footer =======-->
       <footer class="footer">

@@ -1,0 +1,40 @@
+.contact-form {
+  position: relative;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.form-mid-wrapper {
+  display: grid;
+  grid-template-areas: "form img";
+  grid-template-columns: auto max-content;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.form {
+  grid-area: form;
+}
+
+.form-fields{
+  display: flex;
+  flex-direction: column;
+}
+
+.form-heading{
+  color: #38535D;
+}
+
+.contact-form-img {
+  grid-area: img;
+  
+}
+.contact-form-person-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.form-input{
+  color: #55565A;
+}
