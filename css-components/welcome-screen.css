@@ -10,4 +10,5 @@
 
 .welcome-screen-img {  
   grid-area: img;
+  justify-self: end;
 }
